@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" 
+            fetch="https://github.com/oneplus-giulia"
+            revision="fifteen"
+            clone-depth="1" />
+
+    <!-- device tree -->
+    <project remote="github" name="android_device_oneplus_giulia" path="device/oneplus/giulia" />
+    <project remote="github" name="android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" />
+
+    <!-- kernel tree -->
+    <project remote="github" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" />
+    <project remote="github" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" />
+    <project remote="github" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" />
+
+    <!-- hardware -->
+    <project remote="github" name="android_hardware_oplus" path="hardware/oplus" />
+
+    <!-- vendor tree -->
+    <project remote="github" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" />
+    <project remote="github" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" />
+</manifest>
