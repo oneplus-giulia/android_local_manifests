@@ -20,5 +20,5 @@
 
     <!-- hardware -->
     <project remote="github" name="android_hardware_oplus" path="hardware/oplus" />
-    <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8650" />
+    <project remote="LineageOS" path="hardware/qcom-caf/sm8650/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8650" />
 </manifest>
