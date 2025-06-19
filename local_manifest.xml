@@ -14,10 +14,11 @@
     <project remote="github" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" />
     <project remote="github" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" />
 
-    <!-- hardware -->
-    <project remote="github" name="android_hardware_oplus" path="hardware/oplus" />
-
     <!-- vendor tree -->
     <project remote="github" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" />
     <project remote="github" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" />
+
+    <!-- hardware -->
+    <project remote="github" name="android_hardware_oplus" path="hardware/oplus" />
+    <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-22.2-caf-sm8650" />
 </manifest>
