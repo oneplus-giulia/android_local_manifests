@@ -12,7 +12,7 @@
     <project remote="oneplus-giulia" name="android_hardware_oplus" path="hardware/oplus" />
 
     <!-- kernel tree -->
-    <project remote="oneplus-giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="1" sync-s="true" />
+    <project remote="oneplus-giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="1" />
     <project remote="oneplus-giulia" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" clone-depth="1" />
     <project remote="oneplus-giulia" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" clone-depth="1" />
 
