@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project remote="oneplus-giulia" name="signing-keys" path="vendor/evolution-priv/keys" revision="vic" />
+    <project remote="giulia" name="signing-keys" path="vendor/evolution-priv/keys" />
 </manifest>
