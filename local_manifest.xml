@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="giulia"
-            fetch="https://github.com/oneplus-giulia"
-            revision="vic" />
+  <remote name="giulia"
+          fetch="https://github.com/oneplus-giulia"
+          revision="vic" />
 
-    <!-- device tree -->
-    <project remote="giulia" name="android_device_oneplus_giulia" path="device/oneplus/giulia" />
-    <project remote="giulia" name="android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" />
+  <!-- device tree -->
+  <project remote="giulia" name="android_device_oneplus_giulia" path="device/oneplus/giulia" />
+  <project remote="giulia" name="android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" />
 
-    <!-- hardware -->
-    <project remote="giulia" name="android_hardware_oplus" path="hardware/oplus" />
+  <!-- hardware -->
+  <project remote="giulia" name="android_hardware_oplus" path="hardware/oplus" />
 
-    <!-- kernel tree -->
-    <project remote="giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="1" />
-    <project remote="giulia" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" clone-depth="1" />
-    <project remote="giulia" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" clone-depth="1" />
+  <!-- kernel tree -->
+  <project remote="giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="1" />
+  <project remote="giulia" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" clone-depth="1" />
+  <project remote="giulia" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" clone-depth="1" />
 
-    <!-- vendor tree -->
-    <project remote="giulia" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" clone-depth="1" />
-    <project remote="giulia" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" clone-depth="1" />
+  <!-- vendor tree -->
+  <project remote="giulia" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" clone-depth="1" />
+  <project remote="giulia" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" clone-depth="1" />
 </manifest>
