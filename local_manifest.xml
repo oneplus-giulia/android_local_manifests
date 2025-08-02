@@ -12,11 +12,11 @@
   <project remote="giulia" name="android_hardware_oplus" path="hardware/oplus" />
 
   <!-- kernel tree -->
-  <project remote="giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="1" />
-  <project remote="giulia" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" clone-depth="1" />
-  <project remote="giulia" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" clone-depth="1" />
+  <project remote="giulia" name="android_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" clone-depth="10" />
+  <project remote="giulia" name="android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" clone-depth="10" />
+  <project remote="giulia" name="android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" clone-depth="10" />
 
   <!-- vendor tree -->
-  <project remote="giulia" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" clone-depth="1" />
-  <project remote="giulia" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" clone-depth="1" />
+  <project remote="giulia" name="proprietary_vendor_oneplus_giulia" path="vendor/oneplus/giulia" clone-depth="10" />
+  <project remote="giulia" name="proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" clone-depth="10" />
 </manifest>
