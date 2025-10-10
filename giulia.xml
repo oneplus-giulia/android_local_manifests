@@ -2,7 +2,7 @@
 <manifest>
   <remote name="giulia"
           fetch="https://github.com/oneplus-giulia"
-          revision="vic" />
+          revision="bka" />
 
   <!-- device tree -->
   <project remote="giulia" name="android_device_oneplus_giulia" path="device/oneplus/giulia" />
